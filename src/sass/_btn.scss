@@ -1,0 +1,10 @@
+.js-load-more {
+  transition: 300ms;
+  margin-top: 20px;
+}
+
+.js-load-more.is-hidden {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
